@@ -3,5 +3,13 @@ import styled from 'styled-components';
 export const Container = styled.header`
     display: flex;
     justify-content: space-between;
-    align-content: center;
+    padding: 1rem;
+    width: 100%;
+    height: 5rem;
+    border-bottom: 1px solid #dddddd;
+
+    @media (min-width: 1400px) {
+        display: flex;
+        justify-content: space-around;
+    }
 `;

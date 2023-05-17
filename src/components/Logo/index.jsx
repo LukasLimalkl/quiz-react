@@ -1,9 +1,10 @@
+import LinepixLogo from '../../assets/logo.svg';
 import * as Styled from './styles';
 
 export const Logo = () => {
     return (
         <Styled.Container>
-            <h1>oi</h1>
+            <img src={LinepixLogo} alt="foto" />
         </Styled.Container>
     );
 };

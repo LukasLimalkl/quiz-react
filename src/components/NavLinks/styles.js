@@ -5,6 +5,14 @@ export const Container = styled.a`
     justify-content: flex-end;
     a {
         text-decoration: none;
+        color: #2b62f8;
+        font-size: 1.8rem;
+        font-weight: 540;
+        letter-spacing: 0.5px;
+
+        &:hover {
+            color: #2b6aaa;
+        }
     }
     ul {
         list-style: none;
