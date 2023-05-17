@@ -3,7 +3,7 @@ import * as Styled from './styles';
 export const Logo = () => {
     return (
         <Styled.Container>
-            <h1>LINEPIX</h1>
+            <h1>oi</h1>
         </Styled.Container>
     );
 };
