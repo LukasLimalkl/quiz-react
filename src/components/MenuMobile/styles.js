@@ -15,11 +15,11 @@ export const Container = styled.div`
     justify-content: center;
     transform: translateY(5rem);
 
-    background: rgb(255, 255, 255);
-    background: linear-gradient(
-        188deg,
-        rgba(255, 255, 255, 1) 0%,
-        rgba(163, 178, 219, 1) 100%
+    background: rgb(0, 143, 238);
+    background: radial-gradient(
+        circle,
+        rgba(0, 143, 238, 1) 0%,
+        rgba(1, 74, 169, 1) 100%
     );
     opacity: 0;
     pointer-events: none;
@@ -60,6 +60,9 @@ export const Container = styled.div`
             }
             nav {
                 transform: scale(1);
+            }
+            a {
+                color: white;
             }
         `}
 `;

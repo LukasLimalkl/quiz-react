@@ -1,10 +1,12 @@
-import { FirstCard } from '../FirstCard';
 import * as Styled from './styles';
 
 export const Main = () => {
     return (
         <Styled.Container>
-            <FirstCard />
+            <div className="texto">
+                <h1>LINEPIX</h1>
+                <p>aoskaoskaos</p>
+            </div>
         </Styled.Container>
     );
 };
