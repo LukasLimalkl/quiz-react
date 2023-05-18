@@ -7,7 +7,7 @@ export const Container = styled.header`
     width: 100%;
     height: 5rem;
     border-bottom: 1px solid #dddddd;
-
+    background-color: white;
     @media (min-width: 1400px) {
         display: flex;
         justify-content: space-around;

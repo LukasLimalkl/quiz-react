@@ -15,7 +15,7 @@ export const FirstCard = () => {
                 <img
                     src={equipImg}
                     alt="Foto da equipe LinePix"
-                    style={{ height: '45rem' }}
+                    style={{ height: '100%', width: '100%' }}
                 />
             </Styled.Image>
         </Styled.Container>
