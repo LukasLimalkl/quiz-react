@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled, { css } from 'styled-components';
 
 export const Container = styled.div`
     position: absolute;
@@ -13,6 +13,7 @@ export const Container = styled.div`
     display: flex;
     align-items: center;
     justify-content: center;
+    transform: translateY(5rem);
 
     background: rgb(255, 255, 255);
     background: linear-gradient(
@@ -20,11 +21,16 @@ export const Container = styled.div`
         rgba(255, 255, 255, 1) 0%,
         rgba(163, 178, 219, 1) 100%
     );
+    opacity: 0;
+    pointer-events: none;
+    transition: 500ms ease-in-out;
 
     > svg {
         position: absolute;
         top: 1rem;
         right: 1rem;
+        transform: rotate(45deg);
+        transition: 700ms;
     }
 
     nav {
@@ -32,6 +38,8 @@ export const Container = styled.div`
         align-items: center;
         justify-content: center;
         flex-direction: column;
+        transform: scale(0.5);
+        transition: 700ms;
         gap: 2rem;
 
         > a {
@@ -39,4 +47,19 @@ export const Container = styled.div`
             font-size: 2.5rem;
         }
     }
+
+    ${({ isVisible }) =>
+        isVisible &&
+        css`
+            opacity: 1;
+            pointer-events: auto;
+            transform: translateY(0);
+
+            > svg {
+                transform: rotate(0deg);
+            }
+            nav {
+                transform: scale(1);
+            }
+        `}
 `;

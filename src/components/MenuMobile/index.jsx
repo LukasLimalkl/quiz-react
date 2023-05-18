@@ -1,8 +1,12 @@
 import P from 'prop-types';
+import { useEffect } from 'react';
 import { IoCloseOutline } from 'react-icons/io5';
 import * as Styled from './styles';
 
 export const MenuMobile = ({ menuVisible, setMenuVisible }) => {
+    useEffect(() => {
+        document.body.style.overflowY = menuVisible ? 'hiden' : 'auto';
+    }, [menuVisible]);
     return (
         <Styled.Container isVisible={menuVisible}>
             <IoCloseOutline size={45} onClick={() => setMenuVisible(false)} />

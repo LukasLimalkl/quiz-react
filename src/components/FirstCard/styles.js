@@ -6,7 +6,12 @@ export const Container = styled.div`
     width: 80rem;
     height: 50rem;
     overflow: hidden;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    box-shadow: 1px 4px 5px rgba(163, 178, 219, 1);
+    border-radius: 5px;
+    @media (min-width: 1400px) {
+        width: 120rem;
+        height: 80rem;
+    }
 `;
 
 export const Image = styled.div`
@@ -19,8 +24,8 @@ export const Text = styled.div`
     height: auto;
     background-color: white;
     background-color: #f7f7f7;
-
     padding: 1rem;
+
     p {
         padding-top: 2rem;
     }

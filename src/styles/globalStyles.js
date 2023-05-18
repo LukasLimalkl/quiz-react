@@ -15,10 +15,8 @@ export const GlobalStyles = createGlobalStyle`
   body{
     font-size: 1.6rem;
     font-family: "'Open Sans', sans-serif";
-    /* background: rgb(255,255,255);
-    background: linear-gradient(263deg, rgba(255,255,255,1) 0%, rgba(163,178,219,1) 100%);
-    background-size: cover;
-    height: 100vh; */
+    background: rgb(0,143,238);
+    background: radial-gradient(circle, rgba(0,143,238,1) 0%, rgba(1,74,169,1) 100%);
   }
 
   h1, h2, h3, h4, h5, h6{

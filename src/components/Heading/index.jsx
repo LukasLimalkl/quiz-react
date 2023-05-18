@@ -9,7 +9,11 @@ export function Heading({ setMenuVisible }) {
         <Styled.Container>
             <Logo />
             <NavLinks />
-            <IoMenu onClick={() => setMenuVisible(true)} />
+            <IoMenu
+                onClick={() => setMenuVisible(true)}
+                size={30}
+                className="mobile"
+            />
         </Styled.Container>
     );
 }
