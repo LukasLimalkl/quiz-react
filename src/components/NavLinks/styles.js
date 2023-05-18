@@ -3,6 +3,7 @@ import styled from 'styled-components';
 export const Container = styled.a`
     display: flex;
     justify-content: flex-end;
+
     a {
         text-decoration: none;
         color: #2b62f8;
