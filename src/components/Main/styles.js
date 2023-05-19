@@ -7,5 +7,6 @@ export const Container = styled.div`
     .texto {
         justify-content: flex-start;
         padding-left: 2rem;
+        font-size: 3rem;
     }
 `;
