@@ -1,20 +1,10 @@
-import { useState } from 'react';
-import { Heading } from '../components/Heading';
-import { Main } from '../components/Main';
-import { MenuMobile } from '../components/MenuMobile';
+import { Welcome } from '../components/welcome';
 
 function App() {
-    const [menuVisible, setMenuVisible] = useState(false);
-
     return (
-        <>
-            <MenuMobile
-                menuVisible={menuVisible}
-                setMenuVisible={setMenuVisible}
-            />
-            <Heading setMenuVisible={setMenuVisible} />
-            <Main />
-        </>
+        <div>
+            <Welcome />
+        </div>
     );
 }
 
