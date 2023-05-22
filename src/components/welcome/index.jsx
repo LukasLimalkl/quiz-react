@@ -13,7 +13,7 @@ export const Welcome = () => {
             <button onClick={() => dispatch({ type: 'CHANGE_STATE' })}>
                 Iniciar
             </button>
-            <img src={csgo} alt="quiz" />
+            <img src={csgo} alt="imagem csgo" />
         </Styled.Container>
     );
 };

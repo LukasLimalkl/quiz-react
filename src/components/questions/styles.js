@@ -2,6 +2,7 @@ import styled from 'styled-components';
 
 export const Container = styled.div`
     text-align: center;
+    width: 500px;
     max-width: 500px;
     background: rgb(22, 16, 87);
     background: linear-gradient(
