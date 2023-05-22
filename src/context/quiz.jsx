@@ -20,13 +20,19 @@ const quizReducer = (state, action) => {
                 gameStage: STAGES[1],
             };
         case 'REODER_QUESTIONS': {
-            // eslint disable next line
             const reorderQuestions = questions.sort(() => {
                 return Math.random() - 0.5;
             });
             return {
                 ...state,
                 questions: reorderQuestions,
+            };
+        }
+        case 'CHANGE_QUESTION': {
+            const nextQuestion = state.currentQuestions + 1;
+            return {
+                ...state,
+                currentQuestions: nextQuestion,
             };
         }
     }

@@ -22,9 +22,18 @@ export const GlobalStyles = createGlobalStyle`
 
 img{
   max-width: 100%;
+  padding-top: 2rem;
 }
 
+
+
 button{
+    background: rgb(22, 16, 87);
+    background: linear-gradient(
+        128deg,
+        rgba(22, 16, 87, 1) 0%,
+        rgba(63, 19, 103, 1) 27%
+    );
   color: white;
   font-weight: bold;
   font-size: 1.2rem;
@@ -38,7 +47,7 @@ button{
 
 button:hover{
   background: white;
-  color: black;
+  color: rgb(22, 16, 87);
 }
 
   h1, h2, h3, h4, h5, h6{

@@ -13,7 +13,7 @@ function App() {
 
     return (
         <Styled.Container>
-            <h1>Quizz de League of Lengends</h1>
+            <h1>Quizz de Counter Strike Global Offensive</h1>
             {quizState.gameStage === 'Start' && <Welcome />}
             {quizState.gameStage === 'Playing' && <Questions />}
         </Styled.Container>

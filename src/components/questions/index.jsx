@@ -16,7 +16,9 @@ export const Questions = () => {
             <div className="Options">
                 <p>Opções</p>
             </div>
-            <button>Continuar</button>
+            <button onClick={() => dispatch({ type: 'CHANGE_QUESTION' })}>
+                Continuar
+            </button>
         </Styled.Container>
     );
 };

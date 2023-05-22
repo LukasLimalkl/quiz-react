@@ -1,6 +1,6 @@
 import { useContext } from 'react';
 import { QuizContext } from '../../context/quiz';
-import questions from '../../img/questions.svg';
+import csgo from '../../img/csgo.svg';
 import * as Styled from './styles';
 
 export const Welcome = () => {
@@ -13,7 +13,7 @@ export const Welcome = () => {
             <button onClick={() => dispatch({ type: 'CHANGE_STATE' })}>
                 Iniciar
             </button>
-            <img src={questions} alt="quiz" />
+            <img src={csgo} alt="quiz" />
         </Styled.Container>
     );
 };
