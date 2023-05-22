@@ -1,10 +1,12 @@
 import { Welcome } from '../components/welcome';
+import * as Styled from './styles';
 
 function App() {
     return (
-        <div>
+        <Styled.Container>
+            <h1>Quizz de League of Lengends</h1>
             <Welcome />
-        </div>
+        </Styled.Container>
     );
 }
 
