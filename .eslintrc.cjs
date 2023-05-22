@@ -16,7 +16,7 @@ module.exports = {
         'no-unused-vars': 'off',
         semi: ['error', 'always'],
         quotes: ['error', 'single'],
-        indent: 'error',
+        indent: 'off',
         'lines-around-comment': [
             'error',
             {
