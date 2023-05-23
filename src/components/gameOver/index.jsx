@@ -1,14 +1,24 @@
+import { useContext } from 'react';
+import { QuizContext } from '../../context/quiz';
 import Fallen from '../../img/badFallen.svg';
 import * as Styled from './styles';
 
 export const GameOver = () => {
+    const [quizState, dispatch] = useContext(QuizContext);
+
     return (
         <Styled.Container>
             <h2>Fim de Jogo!</h2>
-            <p>Pontuação: </p>
-            <p>Você acertou y de z perguntas</p>
+            <p>Pontuação: {quizState.score} </p>
+            <p>
+                Você acertou {quizState.score} de
+                {' ' + quizState.questions.length}
+                perguntas
+            </p>
             <img src={Fallen} alt="fim do quiz" />
-            <button>Reiniciar</button>
+            <button onClick={() => dispatch({ type: 'NEW_GAME' })}>
+                Reiniciar
+            </button>
         </Styled.Container>
     );
 };
