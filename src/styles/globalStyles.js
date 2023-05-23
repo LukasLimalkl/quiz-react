@@ -28,7 +28,6 @@ img{
 
 
 button{
-    background: rgb(22, 16, 87);
     background: linear-gradient(
         128deg,
         rgba(22, 16, 87, 1) 0%,
