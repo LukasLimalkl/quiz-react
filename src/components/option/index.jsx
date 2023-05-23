@@ -1,14 +1,26 @@
 import { useContext } from 'react';
+
 import { QuizContext } from '../../context/quiz';
-import * as Styled from './styles';
-/* eslint-disable react/prop-types */
-export const Option = ({ option, selectOption, answer }) => {
+
+import './styles.css';
+
+/* eslint-disable react/prop-types*/
+export const Option = ({ option, selectOption, answer, hide }) => {
     const [quizState, dispatch] = useContext(QuizContext);
 
     return (
-        <Styled.Container onClick={() => selectOption()}>
+        <div
+            onClick={() => selectOption()}
+            className={`
+      option
+        ${quizState.answerSelected && option === answer ? 'correct' : ''} ${
+                quizState.answerSelected && option !== answer ? 'wrong' : ''
+            }
+            ${hide ? 'hide' : ''}
+        `}
+        >
             <p>{option}</p>
-        </Styled.Container>
+        </div>
     );
 };
-/* eslint-enable react/prop-types */
+/* eslint-enable  react/prop-types*/

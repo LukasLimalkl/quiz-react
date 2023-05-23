@@ -1,5 +1,6 @@
 import { useContext, useEffect } from 'react';
 import { GameOver } from '../components/gameOver';
+import { PickCategory } from '../components/pickCategory';
 import { Questions } from '../components/questions';
 import { Welcome } from '../components/welcome';
 import { QuizContext } from '../context/quiz';
@@ -16,6 +17,7 @@ function App() {
         <Styled.Container>
             <h1>Quizz de Counter Strike Global Offensive</h1>
             {quizState.gameStage === 'Start' && <Welcome />}
+            {quizState.gameStage === 'Category' && <PickCategory />}
             {quizState.gameStage === 'Playing' && <Questions />}
             {quizState.gameStage === 'End' && <GameOver />}
         </Styled.Container>
