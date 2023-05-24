@@ -17,18 +17,18 @@ export const Questions = () => {
     return (
         <Styled.Container>
             <p>
-                Pergunta {quizState.currentQuestions + 1} de
-                {' ' + quizState.questions.length}
+                Pergunta {quizState.currentQuestion + 1} de{' '}
+                {quizState.questions.length}
             </p>
             <h2>{currentQuestion.question}</h2>
-            <div className="Options">
-                {currentQuestion.options.map((opt) => (
+            <div id="options-container">
+                {currentQuestion.options.map((option) => (
                     <Option
-                        option={opt}
-                        key={opt}
+                        option={option}
+                        key={option}
                         answer={currentQuestion.answer}
-                        selectOption={() => onSelectOption(opt)}
-                        hide={quizState.optionToHide === opt ? 'hide' : null}
+                        selectOption={() => onSelectOption(option)}
+                        hide={quizState.optionToHide === option ? 'hide' : null}
                     />
                 ))}
             </div>
