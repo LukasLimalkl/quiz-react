@@ -1,6 +1,6 @@
 const data = [
     {
-        category: 'HTML',
+        category: 'Mapas',
         questions: [
             {
                 question: 'Qual tag cria um parágrafo?',
@@ -32,33 +32,30 @@ const data = [
         ],
     },
     {
-        category: 'CSS',
+        category: 'Competitivo',
         questions: [
             {
-                question: 'Qual regra altera a cor de um elemento?',
-                options: [
-                    'color',
-                    'background-color',
-                    'font-size',
-                    'transition',
-                ],
-                answer: 'color',
-                tip: 'Cor em inglês',
+                question: 'Qual equipe tem mais titulos de major?',
+                options: ['Astralis', 'SK Gaming', 'G2 Esports', 'Faze'],
+                answer: 'Astralis',
+                tip: 'Estrela',
             },
             {
-                question: 'Para aumentar a fonte de um elemento utilizamos:',
-                options: ['font', 'text-transform', 'font-size', 'hover'],
-                answer: 'font-size',
+                question:
+                    'Qual jogador esteve por mais tempo entre o Top 10 melhores do mundo?',
+                options: ['coldzera', 'device', 's1mple', 'NiKo'],
+                answer: 's1mple',
             },
             {
-                question: 'A posição que deixa um elemento fixo é a:',
-                options: ['static', 'absolute', 'fixed', 'relative'],
-                answer: 'fixed',
+                question:
+                    'Qual foi o primeiro jogador/equipe a ter um grafite em sua homenagem?',
+                options: ['coldzera', 'S1mple', 'olofmeister', 'Fnatic'],
+                answer: 'olofmeister',
             },
         ],
     },
     {
-        category: 'JavaScript',
+        category: 'Armas',
         questions: [
             {
                 question: 'O que é Vanilla JavaScript?',
