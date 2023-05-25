@@ -3,16 +3,15 @@ const data = [
         category: 'Mapas',
         questions: [
             {
-                question: 'Qual tag cria um parágrafo?',
-                options: ['<p>', '<h1>', '<text>', '<ul>'],
-                answer: '<p>',
-                tip: 'É uma tag de uma letra apenas',
+                question: 'Qual foi o primeiro mapa de CSGO?',
+                options: ['cache', 'Cobblestone', 'mirage', 'dust2'],
+                answer: 'Cobblestone',
+                tip: 'Pedra',
             },
             {
-                question: 'Qual atributo adiciona um link para a tag a?',
-                options: ['alt', 'href', 'src', 'link'],
-                answer: 'href',
-                tip: 'Hyperlink Reference',
+                question: 'Qual é o mapa mais jogado de CSGO?',
+                options: ['vertigo', 'dust2', 'cache', 'mirage'],
+                answer: 'mirage',
             },
             {
                 question: 'As listas não ordenadas tem a tag de:',
@@ -35,7 +34,7 @@ const data = [
         category: 'Competitivo',
         questions: [
             {
-                question: 'Qual equipe tem mais titulos de major?',
+                question: 'Qual equipe tem mais titulos de MAJOR?',
                 options: ['Astralis', 'SK Gaming', 'G2 Esports', 'Faze'],
                 answer: 'Astralis',
                 tip: 'Estrela',
@@ -51,6 +50,56 @@ const data = [
                     'Qual foi o primeiro jogador/equipe a ter um grafite em sua homenagem?',
                 options: ['coldzera', 'S1mple', 'olofmeister', 'Fnatic'],
                 answer: 'olofmeister',
+                tip: 'Molotov',
+            },
+            {
+                question: 'Qual equipe ganhou o primeiro MAJOR?',
+                options: [
+                    'Fnatic',
+                    ' Complexity Gaming',
+                    'VeryGames',
+                    ' Ninjas in Pyjamas	',
+                ],
+                answer: 'olofmeister',
+                tip: 'Equipe Sueca',
+            },
+            {
+                question: 'Qual jogador o Neymar Jr matou na faca?',
+                options: ['Zywoo', 'S1mple', 'Fallen', 'Kscerato'],
+                answer: 'Zywoo',
+            },
+            {
+                question:
+                    'Qual motivo fez as equipes IBUYPOWER e TITAN tenham sido banidas do competitivo?',
+                options: [
+                    'Fraude',
+                    'Uso de Hack',
+                    'Aproveitamento de Bugs',
+                    'Condutas antiEsportivas',
+                ],
+                answer: 'Fraude',
+            },
+            {
+                question:
+                    'Qual foi o unico jogador Brasileiro a jogar na Faze?',
+                options: ['Coldzera', 'Fallen', 'Taco', 'Art'],
+                answer: 'Coldzera',
+            },
+            {
+                question: 'Qual jogador Brasileiro jogou mais finais de MAJOR?',
+                options: ['Fnx', 'Fallen', 'Bolz', 'Art'],
+                answer: 'Fnx',
+            },
+            {
+                question: 'Em qual cidade aconteceu o primeiro MAJOR?',
+                options: ['Jonkoping', 'Katowice', 'Columbus', 'Boston'],
+                answer: 'Jonkoping',
+                tip: 'Sueca',
+            },
+            {
+                question: 'Quem é conhecido como rei dos clutchs?',
+                options: ['Simple', 'Monesy', 'Fnx', 'Fallen'],
+                answer: 'Fnx',
             },
         ],
     },
