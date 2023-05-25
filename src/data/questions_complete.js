@@ -14,19 +14,22 @@ const data = [
                 answer: 'mirage',
             },
             {
-                question: 'As listas não ordenadas tem a tag de:',
-                options: ['<ol>', '<ul>', '<li>', '<list>'],
-                answer: '<ul>',
+                question:
+                    'Qual mapa teve que ser mudado pra ser lançado na China?',
+                options: ['Inferno', 'cache', 'Nuke', 'Mirage'],
+                answer: 'cache',
             },
             {
-                question: 'Qual atributo deixa o input obrigatório?',
-                options: ['placeholder', 'value', 'required', 'maxlength'],
-                answer: 'required',
+                question:
+                    'Quais desses mapas ja passaram pela rotação de mapas?',
+                options: ['mirage', 'Nuke', 'train', 'overpass'],
+                answer: 'train',
             },
             {
-                question: 'A tag semântica indicada para rodapés é a:',
-                options: ['div', 'main', 'section', 'footer'],
-                answer: 'footer',
+                question:
+                    'Qual mapa foi o primeiro a ter um grafite em homenagem a uma play',
+                options: ['dust2', 'mirage', 'overpass', 'cache'],
+                answer: 'overpass',
             },
         ],
     },
