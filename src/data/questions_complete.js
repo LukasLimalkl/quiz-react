@@ -110,37 +110,39 @@ const data = [
         category: 'Armas',
         questions: [
             {
-                question: 'O que é Vanilla JavaScript?',
+                question: 'Qual foi a skin mais mais cara ja vendida',
                 options: [
-                    'JavaScript puro',
-                    'Uma biblioteca JavaScript',
-                    'Um framework JavaScript',
-                    'Um compilador de JavaScript',
+                    'AWP Dragon lore',
+                    'Karambit Case hardened',
+                    'Ak-47 Case hardened',
+                    'AWP Medusa',
                 ],
-                answer: 'JavaScript puro',
+                answer: 'Karambit Case hardened',
             },
             {
-                question:
-                    'Com qual instrução declaramos uma constante em JavaScript?',
-                options: ['const', 'let', 'var', 'define'],
-                answer: 'const',
+                question: 'Qual é a skin mais cara de AWP',
+                options: ['Medusa', 'Fogo Selvagem', 'Gingnir', 'Dragon Lore'],
+                answer: 'Dragon Lore',
             },
             {
-                question:
-                    'Qual dos tipos de dado a seguir não existe em JavaScript?',
-                options: ['string', 'number', 'boolean', 'float'],
-                answer: 'float',
+                question: 'Qual skin mais cara de ak-47?',
+                options: [
+                    'Lótus Selvagem',
+                    'Arabesca Dourada',
+                    'Case Hardened',
+                    'Fire Sepernt',
+                ],
+                answer: 'Case Hardened',
             },
             {
-                question: 'Qual dos métodos a seguir seleciona um elemento?',
-                options: ['querySelector', 'parseInt', 'sort', 'reduce'],
-                answer: 'querySelector',
+                question: 'Qual é a skin de AWP lendaria do jogador Fallen?',
+                options: ['RedLine', 'Medusa', 'Dragon Lore', 'Gingnir'],
+                answer: 'RedLine',
             },
             {
-                question:
-                    'Qual destas propriedades da a quantidade de elementos de um array?',
-                options: ['qty', 'length', 'items', 'index'],
-                answer: 'length',
+                question: 'Qual arma tem o menor dano de CSGO?',
+                options: ['MP7', 'UMP-45', 'P90', 'GLOCK'],
+                answer: 'P90',
             },
         ],
     },
