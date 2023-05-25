@@ -16,7 +16,7 @@ export const Option = ({ option, selectOption, answer, hide }) => {
         ${quizState.answerSelected && option === answer ? 'correct' : ''} ${
                 quizState.answerSelected && option !== answer ? 'wrong' : ''
             }
-            ${hide ? 'hide' : ''}
+        ${hide ? 'hide' : ''}
         `}
         >
             <p>{option}</p>

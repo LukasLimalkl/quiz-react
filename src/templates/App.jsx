@@ -10,7 +10,7 @@ function App() {
     const [quizState, dispatch] = useContext(QuizContext);
 
     useEffect(() => {
-        dispatch({ type: 'REODER_QUESTIONS' });
+        dispatch({ type: 'REORDER_QUESTIONS' });
     }, [dispatch]);
 
     return (

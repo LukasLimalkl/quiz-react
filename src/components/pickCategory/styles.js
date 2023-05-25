@@ -13,7 +13,9 @@ export const Container = styled.div`
         color: #8435de;
     }
 
-    &button {
+    .botao {
         margin: 1rem;
+        gap: 1rem;
+        width: 100px;
     }
 `;
