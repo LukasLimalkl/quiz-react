@@ -5,7 +5,7 @@ import * as Styled from './styles';
 
 export const Questions = () => {
     const [quizState, dispatch] = useContext(QuizContext);
-    const currentQuestion = quizState.questions[quizState.currentQuestions];
+    const currentQuestion = quizState.questions[quizState.currentQuestion];
 
     const onSelectOption = (option) => {
         dispatch({
