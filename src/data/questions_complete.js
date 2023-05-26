@@ -63,7 +63,7 @@ const data = [
                     'VeryGames',
                     ' Ninjas in Pyjamas	',
                 ],
-                answer: 'olofmeister',
+                answer: 'Fnatic',
                 tip: 'Equipe Sueca',
             },
             {
