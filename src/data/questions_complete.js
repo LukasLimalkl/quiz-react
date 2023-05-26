@@ -51,7 +51,7 @@ const data = [
             {
                 question:
                     'Qual foi o primeiro jogador/equipe a ter um grafite em sua homenagem?',
-                options: ['coldzera', 'S1mple', 'olofmeister', 'Fnatic'],
+                options: ['S1mple', 'olofmeister', 'Fnatic', 'coldzera'],
                 answer: 'olofmeister',
                 tip: 'Molotov',
             },
