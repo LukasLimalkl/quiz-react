@@ -144,6 +144,11 @@ const data = [
                 options: ['MP7', 'UMP-45', 'P90', 'GLOCK'],
                 answer: 'P90',
             },
+            {
+                question: 'Quais dessas armas não mata com apenas um HS',
+                options: ['M4A4', 'Desert Eagle', 'AWP', 'Ak-47'],
+                answer: 'M4A4',
+            },
         ],
     },
 ];
