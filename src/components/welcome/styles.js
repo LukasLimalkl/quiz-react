@@ -11,4 +11,8 @@ export const Container = styled.div`
     & img {
         margin-top: 2rem;
     }
+
+    @media (max-width: 720px) {
+        width: 300px;
+    }
 `;

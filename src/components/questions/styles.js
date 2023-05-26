@@ -31,4 +31,11 @@ export const Container = styled.div`
         background: white;
         color: rgb(22, 16, 87);
     }
+
+    @media (max-width: 720px) {
+        width: 300px;
+        & button {
+            margin: 1rem;
+        }
+    }
 `;

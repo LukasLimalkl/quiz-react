@@ -15,7 +15,14 @@ export const Container = styled.div`
 
     .botao {
         margin: 1rem;
-        gap: 1rem;
         width: 100px;
+    }
+    @media (max-width: 720px) {
+        width: 350px;
+        .botao {
+            width: 100px;
+            font-size: 12px;
+            margin: 0.5rem;
+        }
     }
 `;
